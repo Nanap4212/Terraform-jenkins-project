@@ -5,12 +5,12 @@ variable "bucket_name" {
 
 variable "table_name" {
   description = "dynamodb table name"
-  default     = "DynamoDB Table"
+  default     = "my-dynamodb-table-4212"
 }
 
 variable "environment" {
   description = "Name or tag of dynamodb"
-  default     = "Sample table"
+  default     = "my-dynamodb-table-4212"
 }
 
 variable "acl_value" {

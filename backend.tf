@@ -4,7 +4,7 @@ terraform {
     key            = "terraform.tfstate"
     profile        = "terraform"
     region         = "ap-northeast-1"
-    dynamodb_table = "Sample table"
+    dynamodb_table = "my-dynamodb-table-4212"
     encrypt = true
   }
 }
