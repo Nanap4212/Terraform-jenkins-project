@@ -1,5 +1,5 @@
 resource "aws_dynamodb_table" "Dynamodb" {
-  name     = var.table_name
+  name     = var.environment
   hash_key = "LockID"
   attribute {
     name = "LockID"
