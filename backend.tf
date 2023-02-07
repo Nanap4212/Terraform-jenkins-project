@@ -5,5 +5,6 @@ terraform {
     profile        = "terraform"
     region         = "ap-northeast-1"
     dynamodb_table = "DynamoDB Table"
+    encryt = true
   }
 }
