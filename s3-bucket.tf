@@ -1,4 +1,4 @@
 resource "aws_s3_bucket" "Mybucket" {
-  bucket = "terraform-jenkins-project-1"
+  bucket = var.bucket_name
   acl    = var.acl_value
 }
